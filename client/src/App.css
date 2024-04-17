@@ -1,0 +1,375 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+.sell-button {
+  background-color: green;
+  color: white;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+
+
+div {
+  color: white;
+}
+
+.auctions-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: "center";
+    display: "block";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.auctions-container h1 {
+  font-size: 30px;
+}
+
+.auctions-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  border-radius: 30px;
+  max-width: 400px;
+  max-height: 800px;
+}
+
+.auctions-container-name {
+  font-size: 25px;
+}
+
+.auctions-container div {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.auctions-container button {
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.auction-tile {
+  border: 2px solid;
+  margin-left: 3rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to top, #454545, transparent);
+}
+
+.auction-tile div {
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  padding-top: 1.25rem;
+  width: 100%;
+}
+
+.auction-tile img {
+  width: 25%;
+  height: auto;
+  object-fit: cover;
+}
+
+.auction-tile strong {
+  font-size: 1.25rem;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20;
+  text-align: center;
+  color: black;
+}
+
+.centered-container .text {
+  font-weight: bold;
+  color: white;
+}
+
+.enableEthereumButton {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px 32px 32px;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 32px;
+}
+
+.form-field {
+  margin-bottom: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: block;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  border: 1px solid;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  color: black;
+}
+
+.image-upload-array {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+
+.image-upload-array img {
+  max-width: 100px;
+  max-height: 400px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar div {
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar ul ul {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.navbar li {
+  padding-bottom: 2px;
+  padding-left: 5px;
+}
+
+.navbar li:hover {
+  border-bottom: 2px solid;
+  padding-bottom: 0;
+}
+
+.navbar img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+}
+
+.network-selector {
+  color: black;
+  background-color: white;
+}
+
+.nft-page {
+  min-height: 100vh;
+}
+
+.nft-page-card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.nft-page img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  border-radius: 30px;
+  max-width: 400px;
+  max-height: 800px;
+}
+
+.nft-page-details {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.nft-tile {
+  color: black;
+}
+
+.nft-tile img {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.nft-tile-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.nft-tile-description {
+  font-size: 0.75rem;
+}
+
+.profile {
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.report-button {
+  background-color: red;
+}
+
+.set-for-sale {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.set-for-sale label {
+  display: block;
+}
+
+.set-for-sale input {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: black;
+}
+
+.user-page {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.user-update-card {
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3;
+  color: black;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
